@@ -3,44 +3,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Arpit Thakur, aspiring quantitative developer and B.Tech CSE (AI and Data Science) student at Lovely Professional University.">
     <title>Arpit Thakur | Aspiring Quantitative Developer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Part B goes here -->
-     <header>
-    <a href="#home">Arpit Thakur</a>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#interests">Interests</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#learning">Learning</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
-    <!-- Part C goes here -->
-     <main>
-    <section id="home" class="hero">
-        <div class="hero-text">
-            <p class="label">B.Tech CSE (AI &amp; DS) · LPU · 2026–2030</p>
-            <h1>Arpit Thakur</h1>
-            <p class="role">Aspiring Quantitative Developer</p>
-            <p>Computer Science undergraduate exploring the intersection of quantitative finance, artificial intelligence and computational systems. Interested in developing intelligent software, mathematical models and data-driven solutions.</p>
-            <a href="#projects" class="button">View Projects</a>
-            <a href="https://github.com/arpitthakur740-neural" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/arpit-thakur-854389428/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="mailto:arpitthakur740@gmail.com">Email</a>
+    <!-- ========== NAVIGATION ========== -->
+    <header>
+        <div class="container header-row">
+            <a href="#home" class="brand">ARPIT THAKUR</a>
+            <button type="button" class="menu-button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+            <nav id="main-nav" aria-label="Main">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <img src="assets/profile.jpg" alt="Portrait of Arpit Thakur" width="320" height="400">
-    </section>
-</main>
+    </header>
+
+    <main>
+
+        <!-- ========== HERO ========== -->
+        <section id="home" class="container">
+            <div class="hero">
+                <div class="hero-text">
+                    <p class="label">B.Tech CSE (AI &amp; DS) · LPU · 2026–2030</p>
+                    <h1>Arpit Thakur</h1>
+                    <p class="role">Aspiring Quantitative Developer</p>
+                    <p class="intro">Computer Science undergraduate exploring the intersection of quantitative finance, artificial intelligence and computational systems. Interested in developing intelligent software, mathematical models and data-driven solutions.</p>
+                    <div class="actions">
+                        <a href="#projects" class="button">View Projects</a>
+                        <!-- CV: after adding assets/Arpit_Thakur_CV.pdf, remove the comment marks around the next line.
+                        <a href="assets/Arpit_Thakur_CV.pdf" class="button button-outline" download>Download CV</a>
+                        -->
+                    </div>
+                    <div class="social">
+                        <a href="https://github.com/arpitthakur740-neural" target="_blank" rel="noopener">GitHub ↗</a>
+                        <a href="https://www.linkedin.com/in/arpit-thakur-854389428/" target="_blank" rel="noopener">LinkedIn ↗</a>
+                        <a href="mailto:arpitthakur740@gmail.com">Email</a>
+                    </div>
+                </div>
+                <img src="assets/profile.jpg" alt="Portrait of Arpit Thakur" width="320" height="400">
+            </div>
+
+            <!-- Decorative line only. It does not represent any data. -->
+            <svg class="chart" aria-hidden="true" viewBox="0 0 1072 90" preserveAspectRatio="none">
+                <path d="M0 22H1072M0 52H1072M0 82H1072"></path>
+                <polyline points="0,70 50,64 95,72 140,55 190,60 240,46 290,58 340,50 395,62 450,40 500,48 550,34 605,45 660,38 715,52 770,30 825,36 880,22 935,34 990,18 1030,26 1072,12"></polyline>
+            </svg>
+        </section>
+
+        <!-- ========== ABOUT ========== -->
+        <section id="about" class="section">
+            <div class="container split">
+                <h2><span class="number">01</span>About</h2>
+                <div class="prose">
+                    <p>I am a first-year B.Tech student in Computer Science and Engineering (AI and Data Science) at Lovely Professional University.</p>
+                    <p>I am currently strengthening my skills in Python, web development and mathematics, with the goal of building intelligent software and, in time, quantitative trading research tools.</p>
+                    <p>My interests include algorithmic trading, machine learning and cybersecurity. I aim to build meaningful technical projects and contribute to open-source software.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== EDUCATION ========== -->
+        <section id="education" class="section alternate">
+            <div class="container split">
+                <h2><span class="number">02</span>Education</h2>
+                <ul class="rows">
+                    <li>
+                        <p class="meta">Aug 2026 – Present · Expected graduation 2030</p>
+                        <h3>Lovely Professional University</h3>
+                        <p>B.Tech, Computer Science and Engineering (AI and Data Science) · Phagwara, Punjab, India</p>
+                    </li>
+                    <li>
+                        <p class="meta">2025</p>
+                        <h3>DAV College</h3>
+                        <p>Class XII · Banikhet, Himachal Pradesh, India</p>
+                    </li>
+                    <li>
+                        <p class="meta">2023</p>
+                        <h3>Guru Nanak Public School</h3>
+                        <p>Class X · Dalhousie, Himachal Pradesh, India</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ========== SKILLS (edit these as you progress) ========== -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2><span class="number">03</span>Skills</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>Python <span>· Fundamentals</span></li>
+                            <li>HTML <span>· Fundamentals</span></li>
+                            <li>CSS <span>· Fundamentals</span></li>
+                            <li>C++ <span>· Planned</span></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Backend Development</h3>
+                        <ul>
+                            <li>Python applications <span>· Beginner</span></li>
+                            <li>REST APIs <span>· Planned</span></li>
+                            <li>Databases <span>· Planned</span></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Tools and Platforms</h3>
+                        <ul>
+                            <li>Visual Studio Code</li>
+                            <li>Git and GitHub</li>
+                            <li>Linux <span>· Learning objective</span></li>
+                            <li>NumPy and Pandas <span>· Planned</span></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Professional Skills</h3>
+                        <ul>
+                            <li>Analytical Thinking</li>
+                            <li>Logical Reasoning</li>
+                            <li>Problem Solving</li>
+                            <li>Research and Innovation</li>
+                            <li>Team Collaboration</li>
+                            <li>Adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== INTERESTS ========== -->
+        <section id="interests" class="section alternate">
+            <div class="container">
+                <h2><span class="number">04</span>Areas of Interest</h2>
+                <p class="note">Subjects I am interested in and learning about, not claims of professional expertise.</p>
+                <div class="grid grid-wide">
+                    <div class="card">
+                        <h3>Quantitative Finance</h3>
+                        <p>Algorithmic Trading · Quantitative Research · Statistical Modelling · Probability and Statistics · Financial Mathematics · Portfolio Optimisation · Risk Management · Market Microstructure</p>
+                    </div>
+                    <div class="card">
+                        <h3>AI and Machine Learning</h3>
+                        <p>Machine Learning · Neural Networks · Deep Learning · Predictive Modelling · Large Language Models · AI-powered Applications · Model Deployment</p>
+                    </div>
+                    <div class="card">
+                        <h3>Computer Science and Software Engineering</h3>
+                        <p>Data Structures and Algorithms · Software Development · Computational Problem Solving · Backend Development · Database Systems · API Development</p>
+                    </div>
+                    <div class="card">
+                        <h3>Cybersecurity</h3>
+                        <p>Network Security · Ethical Hacking · Penetration Testing · Linux · System Security · Cybersecurity Research</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PROJECTS (copy one <article> to add a project) ========== -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2><span class="number">05</span>Projects</h2>
+                <div class="grid grid-wide">
+                    <article class="card">
+                        <p class="status status-active">In Development</p>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Developing a personal portfolio website to showcase my academic background, technical skills, interests and projects.</p>
+                        <p class="meta">HTML · CSS · JavaScript · Git · GitHub</p>
+                        <a href="https://github.com/arpitthakur740-neural/MY-CV-PORTFOLIO" target="_blank" rel="noopener">Repository ↗</a>
+                    </article>
+                    <article class="card">
+                        <p class="status status-planning">In Planning</p>
+                        <h3>Personal Academic AI Intelligence System</h3>
+                        <p>Designing a Python-based desktop application for academic management and performance analytics.</p>
+                        <p class="meta">Python (planned)</p>
+                        <p>Planned: academic records, attendance tracking, examination analysis, data visualisation, AI insights, local AI models and optional cloud APIs.</p>
+                    </article>
+                    <article class="card card-future">
+                        <p class="status">Future · 2028–2029</p>
+                        <h3>Quantitative Trading and Backtesting Engine</h3>
+                        <p>A planned Python-based framework for analysing historical market data, experimenting with trading strategies and evaluating statistical performance.</p>
+                        <p class="meta">Python (planned)</p>
+                        <p>Planned: backtesting, risk management, portfolio optimisation and financial time-series analysis.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== LEARNING ========== -->
+        <section id="learning" class="section alternate">
+            <div class="container split">
+                <h2><span class="number">06</span>Learning</h2>
+                <ul class="rows courses">
+                    <li><span>Ethical Hacking Bootcamp, Udemy</span><span class="meta active">In progress</span></li>
+                    <li><span>C++ Programming and Data Structures</span><span class="meta">Planned</span></li>
+                    <li><span>Machine Learning and Artificial Intelligence</span><span class="meta">Planned</span></li>
+                    <li><span>Mathematics for Machine Learning</span><span class="meta">Planned</span></li>
+                    <li><span>Quantitative Finance and Algorithmic Trading</span><span class="meta">Planned</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT ========== -->
+        <section id="contact" class="section">
+            <div class="container contact">
+                <h2>Let's Connect</h2>
+                <p>Open to meaningful technical discussions, collaborative projects, research opportunities and professional connections.</p>
+                <div class="actions">
+                    <a href="mailto:arpitthakur740@gmail.com" class="button">Email Me</a>
+                    <a href="https://www.linkedin.com/in/arpit-thakur-854389428/" class="button button-outline" target="_blank" rel="noopener">LinkedIn ↗</a>
+                    <a href="https://github.com/arpitthakur740-neural" class="button button-outline" target="_blank" rel="noopener">GitHub ↗</a>
+                    <!-- CV: remove the comment marks around the next line after adding the PDF.
+                    <a href="assets/Arpit_Thakur_CV.pdf" class="button button-outline" download>Download CV</a>
+                    -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container footer-row">
+            <p>© <span id="year">2026</span> Arpit Thakur · Aspiring Quantitative Developer</p>
+            <div class="social">
+                <a href="https://github.com/arpitthakur740-neural" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/arpit-thakur-854389428/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:arpitthakur740@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
